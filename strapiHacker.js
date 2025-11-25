@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         .then(json => {
                             console.log(json.data[0]);
                             json.data.forEach((item) => {
-                                console.log("ITEM:", item); // <-- pour voir la vraie structure
+                                console.log("ITEM:", item);
 
                                 const p = document.createElement("p");
                                 p.textContent = item.Name;
